@@ -12,9 +12,10 @@ load_dotenv()
 logger = logging.getLogger('streamlink_logger')
 logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(asctime)s %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 
-CHANNEL_ID = os.getenv('CHANNEL_ID')
-NID_AUT = os.getenv('NID_AUT')
-NID_SES = os.getenv('NID_SES')
+CHANNEL_ID = os.https://chzzk.naver.com/5db77759d5afd68debca65a7c47f7ab5('CHANNEL_ID')
+NID_AUT = os.wUDLTU65QsZa2ReaersV7bFDCuijtUMaWf1WalHbfV4yFvLtrcc9znmROIBjBVm+('NID_AUT')
+NID_SES = os.AAABm0uaC+0I8jDXSZnt19Cf/NnsL/B+A3Ob6fu5qRQmkD4P1P9JfZUZa0KB6fGpbAUru8QeP3aW2lwxyVuqDOLNNZ7JAbJ5aZJmrFazwfGop5q2e6MHcOdZxJMPKgCh+4DNTLNyc12p/u1w6bCymtpN4Qf3Hix8Jlw3toTXAFdcH8bFt1kA89kZrj6yJqMh8AEctu8MQSsRpYOiTxeQlbinPLdpGSgg8aZ+2NTWZNHVuFGcaj5BhYKKVdz0X61RYE4ajyGHsQsHzsRlBBfeNZrvedNDDM/1tZdD3pQt86RpaHUxQGlAGb4JMi2KIhFcegSjgYppE2QiY9BWbQBbz/7Dc02On80twDhzd1jt6/bzYfjAVXml971mfMMf2iXFx2oEjj77rVDIIERg2NqRwZL1l8JzX7jzfBvlT2TCbFPg1wdZZ/UKshjyiziNadsKEgAq/HaszwU9mg3zjAyYwihH7xUIVg30HDrKAzUd56LkmpEmlfi8LaIr38LX1dy+Mae/E0YeVwnc9sqdx4U9dB0akRqRcin5AN/yXzvP2kw4NjAC
+('NID_SES')
 
 CHZZK_API = f'https://api.chzzk.naver.com/service/v3/channels/{CHANNEL_ID}/live-detail'
 
